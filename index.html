@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./main.js" defer></script>
+    <title>Test Tiunova Lera</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">
+                <div class="header__logo-link">
+                    <a href="./index.html"></a>
+                </div>  
+                <p class="header__logo-text">JavaScript</p>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li><a href="#about" class="nav__list-link">About</a></li>
+                    <li><a href="#features" class="nav__list-link">Features</a></li>
+                    <li><a href="#resourses" class="nav__list-link">Resourses</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="intro">
+            <div class="container intro__container" >
+                <div class="intro__info" id="about">
+                    <h1 class="title intro__title">What is JavaScript?</h1> 
+                    <p class="intro__text">JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+                         While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.
+                        </p> 
+                    <a href="https://learn.javascript.ru/" class="btn">Learn JavaScript</a>       
+                </div>
+                <div class="intro__img">
+                    <img src="./assets/img/intro.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="features" id="features">
+            <div class="container features__container">
+                <h2 class="title features__title">Features</h2>
+                <ul class="features__list">
+                    <li class="features__item">
+                        <h3 class="item__title">Light Weight Scripting language</h3> 
+                        <p class="item__text">JavaScript is a lightweight scripting language because it is made for data handling at the browser only. Since it is not a general-purpose language so it has a limited set of libraries.</p>
+                    </li>
+                    <li class="features__item">
+                        <h3 class="item__title">Dynamic Typing</h3> 
+                        <p class="item__text">JavaScript supports dynamic typing which means types of the variable are defined based on the stored value.</p>
+                    </li>
+                    <li class="features__item">
+                        <h3 class="item__title">Object-oriented programming support</h3> 
+                        <p class="item__text">Starting from ES6, the concept of class and OOPs has been more refined. Also, in JavaScript, two important principles with OOP in JavaScript are Object Creation patterns (Encapsulation) and Code Reuse patterns (Inheritance). </p>
+                    </li>
+                    <li class="features__item">
+                        <h3 class="item__title">Functional Style</h3> 
+                        <p class="item__text">This implies that JavaScript uses a functional approach, even objects are created from the constructor functions and each constructor function represents a unique object-type.  </p>
+                    </li>
+                    <li class="features__item">
+                        <h3 class="item__title">Platform Independent</h3> 
+                        <p class="item__text">This implies that JavaScript is platform-independent or we can say it is portable; which simply means that you can simply write the script once and run it anywhere and anytime.   </p>
+                    </li>
+                    <li class="features__item">
+                        <h3 class="item__title">Prototype-based</h3> 
+                        <p class="item__text">JavaScript is a prototype-based scripting Language. This means javascript uses prototypes instead of classes or inheritance.  </p>
+                    </li>
+                    <li class="features__item">
+                        <h3 class="item__title">Interpreted Language</h3> 
+                        <p class="item__text">JavaScript is an interpreted language which means the script written inside javascript is processed line by line.  </p>
+                    </li>
+                    <li class="features__item">
+                        <h3 class="item__title">Async Processing</h3> 
+                        <p class="item__text">JavaScript supports Promise which enables asynchronous requests wherein a request is initiated and JavaScript doesn't have to wait for the response, which at times blocks the request processing. </p>
+                    </li>
+                    <li class="features__item">
+                        <h3 class="item__title">Client-Side Validation</h3> 
+                        <p class="item__text">This is a feature which is available in JavaScript since forever and is still widely used because every website has a form in which users enter values, and to make sure that users enter the correct value, we must put proper validations in place, both on the client-side and on the server-side. </p>
+                    </li>
+                    <li class="features__item">
+                        <h3 class="item__title">More control in the browser</h3> 
+                        <p class="item__text">JavaScript being a client-side language provides many features that help developers to divide processing between browser and server hence reducing the load on servers by having basic processing, validations, temporary data saving using cookies, etc on the browser itself.</p>
+                    </li>
+
+                </ul>
+            </div>
+            
+        </section>
+        <section class="resourses" id="resourses">
+            <div class="container resourses__container">
+                <h2 class="title resourses__title">Resourses</h2>
+                <ul class="resourses__list">
+                    <li class="resourses__item">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"  class="resourses__link">
+                            <img src="./assets/img/mdn.png" alt="">
+                        </a>
+                        <h4 class="resourses__link-title">MDN JavaScript Guide</h4>
+                        <p class="resourses__link-subtitle">A large series of written guides curated by Mozilla contributors.</p>
+                    </li>
+                    <li class="resourses__item">
+                        <a href="https://www.codecademy.com/learn/introduction-to-javascript"  class="resourses__link">
+                            <img src="./assets/img/code.png" alt="">
+                        </a>
+                        <h4 class="resourses__link-title">Codecademy</h4>
+                        <p class="resourses__link-subtitle">Interactive courses on JavaScript fundamentals.</p>
+                    </li>
+                    <li class="resourses__item">
+                        <a href="http://jsforcats.com/"  class="resourses__link">
+                            <img src="./assets/img/cats.png" alt="">
+                        </a>
+                        <h4 class="resourses__link-title">JavaScript for Cats</h4>
+                        <p class="resourses__link-subtitle">If you’re a cat who wants to learn JavaScript, there isn’t a better online book.</p>
+                    </li>
+                    <li class="resourses__item">
+                        <a href="https://eloquentjavascript.net/"  class="resourses__link">
+                            <img src="./assets/img/bird.png" alt="">
+                        </a>
+                        <h4 class="resourses__link-title">Eloquent JavaScript</h4>
+                        <p class="resourses__link-subtitle">An online book about JavaScript, programming, and the wonders of the digital.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <p class="copyright">@ 2022 JavaScript</p>
+            <a href="https://github.com/Tiunovalera">Tiunovalera</a>
+            <ul class="footer__nav">
+                <li>
+                    <a href="#about" class="footer__nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#features" class="footer__nav-link">Features</a>
+                </li>
+                <li>
+                    <a href="#esourses" class="footer__nav-link">Resourses</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--scroll top----------------------->
+    <div id="Scrolltop" class="showBtn showBtn__hide">
+    </div>
+    
+    
+</body>
+</html>
