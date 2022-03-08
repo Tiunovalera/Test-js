@@ -13,7 +13,6 @@
 
 
 
-
 function getDayInfo(){
 
 const currentDate = new Date();
